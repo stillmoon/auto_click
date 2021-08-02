@@ -28,8 +28,8 @@ def send_mail(recv, title, content, file=None):
     now = now + datetime.timedelta(hours=0)
     detail_time = now.strftime('%Y-%m-%d %H:%M:%S')
 
-    username = '583689440@qq.com'  # 邮箱账号
-    passwd = 'cvovrujlpxribdhb'  # 邮箱密码
+    username = 'xxxxxx@qq.com'  # 邮箱账号
+    passwd = 'xxxxxxxxx'  # 邮箱密码
     recv = recv + '@qq.com'
     # content = detail_time + content  # 加上时间戳
     mail_host = 'smtp.qq.com'  # 邮箱服务器
@@ -161,12 +161,12 @@ def daka(data):
             "xm": xm,
             "xb": xb,
             "sfzh": "",
-            "szyx": "计算机科学与技术学院",
+            "szyx": "xxxxx",        # 学院全称
             "xydm": "4007",
             "zy": "",
             "zydm": "",
-            "bj": "软件工程1903班",
-            "bjdm": "4007013",
+            "bj": "xxxxxx",   # 班级
+            "bjdm": "xxxxxx",   # 班级代码
             "jg": "",
             "yx": "",
             "sfxs": "是",
@@ -178,7 +178,7 @@ def daka(data):
             "shi": shi,
             "xian": xian,
             "sfncxaswfx16": "否",
-            "dm": "4007013",
+            "dm": "xxxxx",  # 班级代码
             "jdlx": jdlx,
             "tbsj": tbsj,
             "fcjtgj17Qt": "",
